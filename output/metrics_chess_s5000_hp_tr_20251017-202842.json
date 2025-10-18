@@ -1,0 +1,14 @@
+{
+  "timestamp": "20251017-202842",
+  "dataset": "data\\chess.dat",
+  "dataset_stem": "chess",
+  "min_support": 5000,
+  "hash_prune": true,
+  "txn_reduction": true,
+  "delimiter": null,
+  "n_transactions": 3196,
+  "total_frequents": 0,
+  "counts_by_k": {},
+  "runtime_seconds": 0.012506500002928078,
+  "frequents_file": "output\\frequents_chess_s5000_hp_tr_20251017-202842.txt"
+}

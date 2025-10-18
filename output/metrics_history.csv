@@ -1,0 +1,2 @@
+timestamp,dataset,dataset_stem,min_support,hash_prune,txn_reduction,delimiter,n_transactions,total_frequents,runtime_seconds,frequents_file,counts_by_k
+20251017-202842,data\chess.dat,chess,5000,True,True,,3196,0,0.012506500002928078,output\frequents_chess_s5000_hp_tr_20251017-202842.txt,{}
