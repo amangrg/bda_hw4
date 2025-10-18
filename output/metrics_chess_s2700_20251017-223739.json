@@ -1,0 +1,23 @@
+{
+  "timestamp": "20251017-223739",
+  "dataset": "data\\chess.dat",
+  "dataset_stem": "chess",
+  "min_support": 2700,
+  "hash_prune": false,
+  "txn_reduction": false,
+  "delimiter": null,
+  "n_transactions": 3196,
+  "total_frequents": 3134,
+  "counts_by_k": {
+    "1": 17,
+    "2": 114,
+    "3": 391,
+    "4": 775,
+    "5": 923,
+    "6": 643,
+    "7": 237,
+    "8": 34
+  },
+  "runtime_seconds": 2.514709999988554,
+  "frequents_file": "output\\frequents_chess_s2700_20251017-223739.txt"
+}

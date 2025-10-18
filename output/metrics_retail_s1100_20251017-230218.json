@@ -1,0 +1,19 @@
+{
+  "timestamp": "20251017-230218",
+  "dataset": "data\\retail.dat",
+  "dataset_stem": "retail",
+  "min_support": 1100,
+  "hash_prune": false,
+  "txn_reduction": false,
+  "delimiter": null,
+  "n_transactions": 88162,
+  "total_frequents": 119,
+  "counts_by_k": {
+    "1": 50,
+    "2": 43,
+    "3": 22,
+    "4": 4
+  },
+  "runtime_seconds": 6.643278700008523,
+  "frequents_file": "output\\frequents_retail_s1100_20251017-230218.txt"
+}

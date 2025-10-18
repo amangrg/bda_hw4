@@ -1,0 +1,25 @@
+{
+  "timestamp": "20251017-223439",
+  "dataset": "data\\chess.dat",
+  "dataset_stem": "chess",
+  "min_support": 2500,
+  "hash_prune": true,
+  "txn_reduction": true,
+  "delimiter": null,
+  "n_transactions": 3196,
+  "total_frequents": 11493,
+  "counts_by_k": {
+    "1": 22,
+    "2": 160,
+    "3": 651,
+    "4": 1654,
+    "5": 2758,
+    "6": 3002,
+    "7": 2091,
+    "8": 902,
+    "9": 226,
+    "10": 27
+  },
+  "runtime_seconds": 15.954271900001913,
+  "frequents_file": "output\\frequents_chess_s2500_hp_tr_20251017-223439.txt"
+}

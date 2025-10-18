@@ -1,0 +1,11 @@
+=== Apriori Benchmark Summary ===
+Timestamp       : 20251017-223500
+Dataset         : data\chess.dat
+Min support     : 2600
+Hash prune      : True
+Txn reduction   : True
+Transactions    : 3196
+Runtime (sec)   : 5.1687
+Total frequents : 6135
+Counts by k     : k=1:19, k=2:132, k=3:506, k=4:1169, k=5:1674, k=6:1507, k=7:834, k=8:260, k=9:34
+Output file     : output\frequents_chess_s2600_hp_tr_20251017-223500.txt

@@ -1,0 +1,21 @@
+{
+  "timestamp": "20251017-224233",
+  "dataset": "data\\chess.dat",
+  "dataset_stem": "chess",
+  "min_support": 3000,
+  "hash_prune": false,
+  "txn_reduction": false,
+  "delimiter": null,
+  "n_transactions": 3196,
+  "total_frequents": 155,
+  "counts_by_k": {
+    "1": 12,
+    "2": 38,
+    "3": 55,
+    "4": 38,
+    "5": 11,
+    "6": 1
+  },
+  "runtime_seconds": 0.12854499998502433,
+  "frequents_file": "output\\frequents_chess_s3000_20251017-224233.txt"
+}

@@ -1,0 +1,11 @@
+=== Apriori Benchmark Summary ===
+Timestamp       : 20251017-224301
+Dataset         : data\retail.dat
+Min support     : 5000
+Hash prune      : False
+Txn reduction   : False
+Transactions    : 88162
+Runtime (sec)   : 0.2963
+Total frequents : 15
+Counts by k     : k=1:5, k=2:7, k=3:3
+Output file     : output\frequents_retail_s5000_20251017-224301.txt

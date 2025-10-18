@@ -1,0 +1,19 @@
+{
+  "timestamp": "20251017-224243",
+  "dataset": "data\\retail.dat",
+  "dataset_stem": "retail",
+  "min_support": 1000,
+  "hash_prune": true,
+  "txn_reduction": true,
+  "delimiter": null,
+  "n_transactions": 88162,
+  "total_frequents": 135,
+  "counts_by_k": {
+    "1": 56,
+    "2": 49,
+    "3": 24,
+    "4": 6
+  },
+  "runtime_seconds": 1.0936633000092115,
+  "frequents_file": "output\\frequents_retail_s1000_hp_tr_20251017-224243.txt"
+}

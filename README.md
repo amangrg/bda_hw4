@@ -9,25 +9,6 @@ It supports two optional optimizations:
 - Python 3.9+
 - No external packages required
 
-## Project Layout
-```
-apriori_project/
-├─ src/
-│  ├─ __init__.py
-│  ├─ apriori.py
-│  └─ main.py              # CLI entrypoint
-├─ sample_data/
-│  └─ toy_transactions.txt
-├─ output/
-├─ scripts/
-│  ├─ run_apriori.sh
-│  └─ run_apriori.bat
-├─ tests/
-│  └─ test_apriori.py
-├─ REPORT_TEMPLATE.md
-└─ README.md
-```
-
 ## Input Format
 - One transaction **per line**.
 - Items separated by **whitespace** by default (use `--delimiter` to change).
@@ -46,23 +27,14 @@ From the project root:
 
 ```bash
 # Option 1: Python module
-python -m src.main sample_data/toy_transactions.txt 2 output/frequents.txt
+python scripts\benchmark.py data\chess.dat 2600
 
 # With optimizations
-python -m src.main sample_data/toy_transactions.txt 2 output/frequents.txt --hash-prune --txn-reduction
-
-# Specify delimiter (e.g., comma)
-python -m src.main path/to/your.csv 100 output/out.txt --delimiter ","
-```
+python scripts\benchmark.py data\chess.dat 2600 --hash-prune --txn-reduction
 
 On Windows (PowerShell/CMD), you can run:
 ```bat
-scripts\run_apriori.bat
-```
-
-On Mac/Linux:
-```bash
-bash scripts/run_apriori.sh
+scripts\run.ps1
 ```
 
 ## Output Format
@@ -80,19 +52,8 @@ The file is sorted by: (itemset size, lexicographic items, support descending).
 
 Both are optional flags and preserve correctness (they only prune candidates/transactions that cannot produce frequent supersets).
 
-## Testing
-```bash
-python -m pytest -q
-```
-
 ## Datasets
-You can test on FIMI datasets (http://fimi.ua.ac.be/data/) or those in WEKA/R/Mahout.
-For large datasets, start with higher min-support to validate correctness and then decrease.
-
-## Reproducibility
-- Record the exact **min_support** and **dataset** used.
-- Save the produced `output/frequents.txt` for submission.
-- Include the filled-in `REPORT_TEMPLATE.md` (export to PDF).
+You can test on FIMI datasets (http://fimi.ua.ac.be/data/) 
 
 ## License
 MIT
